@@ -1,4 +1,4 @@
-# soloProject
+# skills and links
 
 description of new Biles skills:
 Biles (vault)- Round off Flic-flac with ½ turn (180°) on – stretched salto fwd with 2/1 twist (720°) off (6.0 D-score)https://www.youtube.com/watch?v=QZGolkd0JGg (first competed at 2018 World championships)
