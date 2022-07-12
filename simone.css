@@ -1,0 +1,7 @@
+body {
+    background-image: url('fig-header.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-blend-mode: lighten;
+}
