@@ -1,5 +1,7 @@
 # skills and links
 
+Images Courtesy of Unsplash and Shutterstock
+
 description of new Biles skills:
 Biles (vault)- Round off Flic-flac with ½ turn (180°) on – stretched salto fwd with 2/1 twist (720°) off (6.0 D-score)https://www.youtube.com/watch?v=QZGolkd0JGg (first competed at 2018 World championships)
 Biles II (vault; submitted but not competed at an international competition)- Round off Flic-flac on - piked double salto bwd off https://www.youtube.com/watch?v=NESV8eu6k18 (6.6 D-score in 2017-20 CoP; 6.2 projected D-score in 2022-24 CoP) 
