@@ -22,9 +22,40 @@ header {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(400px, auto);
+    grid-template-areas: 
+    "ac ."
+    "yv mub"
+    "df sbb"
+    ". mfx";
 }
+
+.acronym {
+    grid-area: ac;
+}
+
+.yeo {
+    grid-area: yv;
+}
+
+.martins {
+    grid-area: mub;
+}
+
+.derwael-fenton {
+    grid-area: df;
+}
+
+.sugihara {
+    grid-area: sbb;
+}
+
+.maldonado {
+    grid-area: mfx;
+}
+
 
 .yeo-vid,
 .martins-vid,
