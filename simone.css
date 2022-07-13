@@ -28,7 +28,10 @@ header {
     gap: 10px;
 }
 
-.vault1 {
+.vault1,
+.floor,
+.beam,
+.vault2 {
     width: 400px;
     height: 225px;
 }
