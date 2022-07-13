@@ -19,3 +19,17 @@ body {
 header {
     color:black;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.yeo-vid,
+.martins-vid,
+.df-vid,
+.sugihara-vid {
+    width: 400px;
+    height: 225px;
+}
