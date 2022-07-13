@@ -20,12 +20,35 @@ header {
     color:black;
 }
 
-
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    grid-auto-rows: minmax(400px, auto);
+    grid-template-areas: 
+    "ac ."
+    "bvt bb"
+    "bfx b2v";
+}
+
+.acronym {
+    grid-area: ac;
+}
+
+.biles-vault {
+    grid-area: bvt;
+}
+
+.biles-beam {
+    grid-area: bb;
+}
+
+.biles-floor {
+    grid-area: bfx;
+}
+
+.biles2-vault {
+ grid-area: b2v;
 }
 
 .vault1,
