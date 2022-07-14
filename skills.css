@@ -18,6 +18,7 @@ body {
 
 header {
     color:black;
+    margin-right: 20px;
 }
 
 .grid-container {
@@ -34,26 +35,38 @@ header {
 
 .acronym {
     grid-area: ac;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
 .yeo {
     grid-area: yv;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .martins {
     grid-area: mub;
+    margin-bottom: 10px;
+    margin-right: 20px;
 }
 
 .derwael-fenton {
     grid-area: df;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .sugihara {
     grid-area: sbb;
+    margin-bottom: 10px;
+    margin-right: 20px;
 }
 
 .maldonado {
     grid-area: mfx;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .mail-list {
@@ -73,6 +86,7 @@ header {
 .mail-list {
     background-color: #007ac1bb;
     border: 2px solid #ea501e;
+    color: white;
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -86,4 +100,23 @@ input {
 input[type=text] {
     border: 2px solid #ea501e;
     border-radius: 4px;
-  }
+}
+
+input[type=password] {
+    border: 2px solid #ea501e;
+    border-radius: 4px;
+}
+
+input[type=email] {
+    border: 2px solid #ea501e;
+    border-radius: 4px;
+}
+
+footer {
+    font-size: x-small;
+    color:black;
+}
+
+#my-form {
+    margin-top: 10px;
+}

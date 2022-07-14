@@ -9,7 +9,23 @@ let password = document.getElementById('password');
 let confirmPW = document.getElementById('confirm-password');
 let firstName = document.getElementById('fname');
 let submitBttn = document.getElementById('button');
+let form = document.getElementById('my-form');
 
-//add event listener to submit button 
-//if password === confirm password submit form
-//else alert(passwords do not match)
+
+
+// //add event listener to form 
+// submitBttn.addEventListener('submit', (event) => {
+// //if passwords don't match, don't submit
+//     event.preventDefault();
+// //if password === confirm password submit form
+// if (password.value === confirmPW.value){
+//     form.submit();
+//     alert('Thank you for signing up!')
+// } else {
+//     alert('Passwords do not match');
+// }})
+
+submitBttn.addEventListener('click', function () {
+    form.submit();
+    alert('Thank you for signing up!')
+});
