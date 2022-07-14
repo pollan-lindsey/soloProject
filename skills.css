@@ -86,7 +86,7 @@ header {
 .mail-list {
     background-color: #007ac1bb;
     border: 2px solid #ea501e;
-    color: white;
+    color: black;
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -113,10 +113,26 @@ input[type=email] {
 }
 
 footer {
-    font-size: x-small;
+    font-size: smaller;
     color:black;
 }
 
 #my-form {
     margin-top: 10px;
+}
+
+input {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+button {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 24px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border-color: #ea501e;
+    background-color: #ea501e;
+    cursor: pointer;
 }
