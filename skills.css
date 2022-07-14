@@ -82,3 +82,8 @@ header {
 input {
     width: 100%;
 }
+
+input[type=text] {
+    border: 2px solid #ea501e;
+    border-radius: 4px;
+  }
