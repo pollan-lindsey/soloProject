@@ -29,7 +29,7 @@ header {
     "ac ."
     "yv mub"
     "df sbb"
-    ". mfx";
+    "ml mfx";
 }
 
 .acronym {
@@ -56,6 +56,10 @@ header {
     grid-area: mfx;
 }
 
+.mail-list {
+    grid-area: ml;
+}
+
 
 .yeo-vid,
 .martins-vid,
@@ -64,4 +68,17 @@ header {
 .maldonado-vid {
     width: 400px;
     height: 225px;
+}
+
+.mail-list {
+    background-color: #007ac1bb;
+    border: 2px solid #ea501e;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+input {
+    width: 100%;
 }
